@@ -9,3 +9,5 @@ docker run -d -p 8090:8090 tomcatsample
 
 ##Connect to docker container bash
 docker exec -it <docker-execution-id> /bin/bash
+
+
