@@ -1,5 +1,6 @@
 /target/
 .mvn/
+.idea/**.*
 
 ### STS ###
 .apt_generated
