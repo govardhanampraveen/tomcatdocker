@@ -3,7 +3,7 @@ FROM tomcat:8.0-alpine
 
 LABEL maintainer="bhanu.yandra@gmail.com"
 
-ADD sample /usr/local/tomcat/webapps/
+COPY /sample /usr/local/tomcat/webapps/
 
 EXPOSE 8090
 
